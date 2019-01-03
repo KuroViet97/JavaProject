@@ -1,0 +1,133 @@
+Iteration: 1
+Total Factories: 49
+Machine drive power: 219.11479242596974
+Maintenance power: 1261.2808627188197
+Other processes power: 1359.60434485521
+------------------
+Total Residents: 51
+Appliances power: 285.1036071366506
+Lighting power: 794.8834117453335
+Other devices power: 1200.012981118016
+***************
+Iteration: 2
+Total Factories: 49
+Machine drive power: 115.00919119214387
+Maintenance power: 660.5765591481388
+Other processes power: 704.4142496597175
+------------------
+Total Residents: 51
+Appliances power: 191.76050923901587
+Lighting power: 533.7778422577247
+Other devices power: 814.4616485032592
+***************
+Iteration: 3
+Total Factories: 49
+Machine drive power: 89.54864893177798
+Maintenance power: 559.6766024592016
+Other processes power: 590.7747486090203
+------------------
+Total Residents: 51
+Appliances power: 229.84581468125188
+Lighting power: 666.170705271753
+Other devices power: 963.9834800469952
+***************
+Iteration: 4
+Total Factories: 49
+Machine drive power: 1581.2744432562713
+Maintenance power: 180.27617661982757
+Other processes power: 658.4493801239015
+------------------
+Total Residents: 51
+Appliances power: 991.15972081233
+Lighting power: 983.8975005744426
+Other devices power: 644.9427786132276
+***************
+Iteration: 5
+Total Factories: 49
+Machine drive power: 2283.0317960117554
+Maintenance power: 260.41163342580586
+Other processes power: 896.5565705624377
+------------------
+Total Residents: 51
+Appliances power: 1379.7526961139454
+Lighting power: 1390.1274711391784
+Other devices power: 930.1198327468758
+***************
+Iteration: 6
+Total Factories: 49
+Machine drive power: 2177.7638531159578
+Maintenance power: 254.16179839192418
+Other processes power: 908.074348492118
+------------------
+Total Residents: 51
+Appliances power: 1360.8732153963751
+Lighting power: 1368.396053769392
+Other devices power: 910.7307308342324
+***************
+Iteration: 7
+Total Factories: 49
+Machine drive power: 2270.28491959426
+Maintenance power: 269.0384425653741
+Other processes power: 1020.6766378403652
+------------------
+Total Residents: 51
+Appliances power: 1163.0602467646834
+Lighting power: 1133.8751759158988
+Other devices power: 763.0645773194175
+***************
+Iteration: 8
+Total Factories: 49
+Machine drive power: 2058.0970533461505
+Maintenance power: 244.58331163333617
+Other processes power: 817.3196350205142
+------------------
+Total Residents: 51
+Appliances power: 939.7570513806127
+Lighting power: 935.8249473246503
+Other devices power: 624.418001294737
+***************
+Iteration: 9
+Total Factories: 49
+Machine drive power: 1816.493384471986
+Maintenance power: 213.80854502932067
+Other processes power: 749.6980704986937
+------------------
+Total Residents: 51
+Appliances power: 984.4369000676879
+Lighting power: 980.8380692692742
+Other devices power: 654.7250306630374
+***************
+Iteration: 10
+Total Factories: 49
+Machine drive power: 397.0377140342897
+Maintenance power: 1645.0049373372706
+Other processes power: 1257.9573486284398
+------------------
+Total Residents: 51
+Appliances power: 1045.6058665730704
+Lighting power: 997.4054796934862
+Other devices power: 1376.9886537334437
+***************
+Iteration: 11
+Total Factories: 49
+Machine drive power: 573.1712122161866
+Maintenance power: 2259.580669561197
+Other processes power: 1727.2481182226168
+------------------
+Total Residents: 51
+Appliances power: 1314.21516354271
+Lighting power: 1346.0762881005564
+Other devices power: 1779.708548356734
+***************
+Iteration: 12
+Total Factories: 49
+Machine drive power: 535.0102935026947
+Maintenance power: 2159.3931182423016
+Other processes power: 1625.596588255004
+------------------
+Total Residents: 51
+Appliances power: 1210.1051499743292
+Lighting power: 1217.4788134895375
+Other devices power: 1632.4160365361333
+***************
+Generated at 2018-10-24 at 23:05:01.168

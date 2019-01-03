@@ -1,0 +1,100 @@
+Iteration: 1
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.15384615384615
+Demand: 5120.0
+Supply: 5199.999999999999
+Balance: 0.0
+--------------
+Iteration: 2
+Total Consumer: 100
+Total Generator: 15
+Frequency: 49.31567328918322
+Demand: 3020.0
+Supply: 2813.333333333334
+Balance: 46.93333333333385
+--------------
+Iteration: 3
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.0
+Demand: 3100.0
+Supply: 3100.0000000000005
+Balance: 46.93333333333521
+--------------
+Iteration: 4
+Total Consumer: 100
+Total Generator: 15
+Frequency: 49.99999999999999
+Demand: 5040.0
+Supply: 5039.999999999998
+Balance: 97.33333333333303
+--------------
+Iteration: 5
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.27247956403269
+Demand: 7140.0
+Supply: 7339.999999999998
+Balance: 132.9333333333352
+--------------
+Iteration: 6
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.0
+Demand: 6980.0
+Supply: 6980.000000000001
+Balance: 412.1333333333341
+--------------
+Iteration: 7
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.0
+Demand: 6620.0
+Supply: 6620.0
+Balance: 676.9333333333316
+--------------
+Iteration: 8
+Total Consumer: 100
+Total Generator: 15
+Frequency: 49.45432977461447
+Demand: 5620.0
+Supply: 5313.333333333333
+Balance: 1285.066666666663
+--------------
+Iteration: 9
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.24096385542168
+Demand: 5400.0
+Supply: 5533.333333333333
+Balance: 1334.3999999999942
+--------------
+Iteration: 10
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.0
+Demand: 6720.0
+Supply: 6720.0
+Balance: 1603.1999999999916
+--------------
+Iteration: 11
+Total Consumer: 100
+Total Generator: 15
+Frequency: 50.0
+Demand: 9000.0
+Supply: 9000.000000000002
+Balance: 1963.199999999988
+--------------
+Iteration: 12
+Total Consumer: 100
+Total Generator: 15
+Frequency: 49.71360381861575
+Demand: 8380.0
+Supply: 8140.0
+Balance: 2598.399999999987
+--------------
+Total Cost: 10175.000000000002
+Total Profit: 10810.2
+-----------------
+ Generated at 2018-10-24 at 23:05:01.168
