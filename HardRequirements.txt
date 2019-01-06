@@ -1,0 +1,84 @@
+Requirements
+
+The simulator provides a grid environment with generators and consumers. Each component may show individual automatic or externally driven behaviour. Additionally, the state of these components is, according to individual capabilities, measured and altered every two hours by a control model - which is in the following called an iteration. The GUI aims to summarize the important details of each iteration and may give control over environment, components and external conditions. The total amount of running consumers can be defined as parameter in percentage.
+
+Objective
+- simulate a power grid over 24 hours (12 Iterations)
+- implement different types of consumer models and generator models
+- implement following scenarios with 100 different consumers with average consumption of 100W
+
+Iteration	Running
+0	50%
+1	20%
+2	15%
+3	45%
+4	75%
+5	60%
+6	55%
+7	40%
+8	45%
+9	65%
+10	95%
+11	75%
+Table 1: Typical Consumption Pattern
+
+Scenario 1: Regular Day
+- The consumers show a consumption according to table 1.
+- The frequency should at no time exceed 50Hz +- 2 Hz
+
+Scenario 2: Outage
+- The consumers show a consumption according to table 1.
+- Due to an outage, generators will unregister at a iteration between 0 and 5
+- The frequency should stabilize after some more iterations
+
+
+
+
+
+
+
+
+
+
+The interfaces and JUnit test cases, which are described later, aim to fullfill following requirements:  
+
+
+Generator Model
+- MUST be registered at the Control Model
+- MUST provide an interface to measure the momentary power
+- MUST provide the minimum and maximum supply
+- MUST provide the maximum supply-change per iteration
+- MUST provide an interface for the Control Model to request a supply change
+- MAY change supply due to internal or external conditions (e.g. time, weather, price ..)
+- MAY turn automatically off after a nr. of iterations (e.g. battery, pump power plant)
+
+Consumer Model
+- MUST be registered at the Control Model
+- MUST have an On and Off state, each with defined power
+- MAY be registered as cluster with other consumers (e.g. households)
+- MUST provide an interface to measure the power
+- MUST provide an interface for remote changes
+- MAY change state due to internal or external conditions  (e.g. time, weather, price ..)
+
+
+Control Model
+- MUST be able register an arbitary number of generators and consumers
+- MUST be able to un-register each component
+- MUST compute the total demand every iteration
+- MUST compute the total cost every iteration
+- MUST compute the mains frequency every iteration
+ (50Hz minus the difference of demand-supply, whereas 10% equals 1Hz)
+- MUST unregister 10% Generators, if mains frequency > 51Hz (overload)
+- MUST unregister 15% of the consumers if mains frequency < 49Hz (blackout)
+- MUST unregister components if mains frequency > 51Hz < 49 Hz for 3 Iterations (defect)
+- MAY request state changes in consumers for demand side management
+- MAY request supply and state changes in generators for demand side management
+- MAY request to start or shutdown generators for demand side management
+- MAY change the electricity price
+
+GUI
+- MUST be capable to control current the iteration (display each iteration)
+- MUST be capable to show current demand, supply and frequency
+- MUST be capable to show the number of consumer and generators
+- MUST be capable to show current weather and electricity price
+- MUST be capable to show name and power of individual consumer or generator 
