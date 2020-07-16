@@ -1,1 +1,1 @@
-# JavaProject
+# Power Grid Simulartor - Project course, VGU
